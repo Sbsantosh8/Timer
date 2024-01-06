@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+margin-top: 20rem;
+background-image: url("./tomoko-uji-Oq6Mdb4o6vA-unsplash.jpg");
+background-size: cover;
+
+  
+}
+
+.timer{
+  height: 200px;
+  width: 600px;
+  background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(164,179,176,1) 100%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 30px;
+
+}
